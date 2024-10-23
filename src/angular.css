@@ -1,0 +1,35 @@
+section.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    border: solid 1px #ccc;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 10px;
+}
+
+img {
+    grid-row: 1 / 5;
+}
+
+h3,
+div.toolbar {
+    text-align: center;
+    align-self: center;
+}
+
+div.column {
+    font-size: 20px;
+    align-self: center;
+}
+
+a,
+a:active,
+a:hover,
+a:focus {
+    color: black;
+    text-decoration: none;
+}
+a {
+    font-size: 20px;
+}
