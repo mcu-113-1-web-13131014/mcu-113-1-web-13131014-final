@@ -1,0 +1,28 @@
+section.container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  border: solid 1px #ccc;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+}
+section img {
+  grid-row: 1/5;
+}
+section h3,
+section div.toolbar {
+  text-align: center;
+  align-self: center;
+}
+section div.column {
+  font-size: 20px;
+  align-self: center;
+}
+section a {
+  font-size: 20px;
+}
+section a:active, section a:hover, section a:focus {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=angular.min.css.map */
