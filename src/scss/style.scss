@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+section {
+  &.body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  nav {
+    margin-bottom: 10px;
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+
+      > li {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 8px;
+        width: 80px;
+        text-align: center;
+      }
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+
+      &:active,
+      &:hover,
+      &:focus {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  input[type="text"] {
+    width: 200px;
+    height: 25px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+
+    th,
+    td {
+      height: 30px;
+    }
+
+    th {
+      background-color: #777;
+      color: white;
+    }
+
+    tr {
+      &:hover {
+        background-color: yellow;
+      }
+
+      > td {
+        padding: 8px;
+        &.id {
+          width: 120px;
+          text-align: center;
+        }
+
+        &.company {
+          width: 150px;
+          text-align: center;
+        }
+
+        &.price {
+          text-align: right;
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    .card {
+      border: solid 1px #999;
+      padding: 10px;
+      border-radius: 8px;
+      flex-basis: 250px;
+    }
+  }
+}
+
+footer {
+  margin-top: 20px;
+}
