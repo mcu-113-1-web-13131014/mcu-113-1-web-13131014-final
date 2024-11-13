@@ -1,6 +1,7 @@
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color:rgb(218,70,102);
+  --text-color: rgb(68,68,68);
 }
 
 body {
@@ -28,4 +29,15 @@ nav .nav-logo {
   font-size: 24px;
   font-weight: 600;
   color: var(--logo-color);
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul .nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  padding-inline: 15px;
+  margin-inline: 20px;
 }/*# sourceMappingURL=style.min.css.map */
