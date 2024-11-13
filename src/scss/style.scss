@@ -20,3 +20,16 @@ body {
     padding: 0;       
     box-sizing: border-box;
 }
+
+.wrapper {
+    padding-inline: 10vw;
+
+    .home-box {
+        height: 100vh;
+        min-height: 700px;
+    }
+    .section {
+        padding-block: 6em;
+        min-height: 700px;
+    }
+}

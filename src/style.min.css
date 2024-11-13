@@ -40,4 +40,16 @@ body .container {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.wrapper {
+  padding-inline: 10vw;
+}
+.wrapper .home-box {
+  height: 100vh;
+  min-height: 700px;
+}
+.wrapper .section {
+  padding-block: 6em;
+  min-height: 700px;
 }/*# sourceMappingURL=style.min.css.map */
