@@ -24,11 +24,26 @@ nav ul .nav-link {
   padding-inline: 15px;
   margin-inline: 20px;
 }
+nav ul .active-link {
+  position: relative;
+  color: var(--first-color);
+}
+nav ul .active-link::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: var(--first-color);
+  left: 50%;
+  bottom: -15px;
+  border-radius: 50%;
+}
 
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
   --text-color: rgb(68, 68, 68);
+  --first-color: rgb(110, 87, 224);
 }
 
 html {
