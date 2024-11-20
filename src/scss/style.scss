@@ -1,35 +1,36 @@
-@import './nav';
+@import "./nav";
 
 :root {
-    --body-color: rgb(250, 250, 250);
-    --logo-color:rgb(218,70,102);
+  --body-color: rgb(250, 250, 250);
+  --logo-color: rgb(218, 70, 102);
 
-    --text-color: rgb(68,68,68);
+  --text-color: rgb(68, 68, 68);
 }
 
 body {
-    background-color: var(--body-color);
+  background-color: var(--body-color);
 
-    .container {
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;       
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
-    padding-inline: 10vw;
+  padding-inline: 10vw;
 
-    .home-box {
-        height: 100vh;
-        min-height: 700px;
-    }
-    .section {
-        padding-block: 6em;
-        min-height: 700px;
-    }
+  .home-box {
+    padding-block: 6em;
+    height: 100vh;
+    min-height: 700px;
+  }
+  .section {
+    padding-block: 6em;
+    min-height: 700px;
+  }
 }
