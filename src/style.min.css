@@ -107,6 +107,22 @@ nav ul .active-link::after {
   cursor: pointer;
 }
 
+.home-image {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+  min-height: 80vh;
+}
+.home-image .image {
+  width: 380px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.home-image .image img {
+  width: 380px;
+}
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
@@ -139,6 +155,7 @@ body .container {
   padding-inline: 10vw;
 }
 .wrapper .home-box {
+  display: flex;
   padding-block: 6em;
   height: 100vh;
   min-height: 700px;
