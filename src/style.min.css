@@ -51,6 +51,9 @@ nav ul .active-link::after {
   background-color: var(--second-color);
   color: var(--withe-color);
 }
+.btn > i {
+  margin-left: 10px;
+}
 
 :root {
   --body-color: rgb(250, 250, 250);
@@ -90,4 +93,8 @@ body .container {
 .wrapper .section {
   padding-block: 6em;
   min-height: 700px;
+}
+
+i {
+  font-size: 16px;
 }/*# sourceMappingURL=style.min.css.map */
