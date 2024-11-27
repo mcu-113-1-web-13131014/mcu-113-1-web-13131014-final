@@ -164,6 +164,17 @@ body .container {
   padding-block: 6em;
   min-height: 700px;
 }
+.wrapper .section .top-header {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.wrapper .section .top-header h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.wrapper .section .top-header span {
+  color: #999;
+}
 
 i {
   font-size: 16px;
