@@ -181,6 +181,21 @@ nav ul .active-link::after {
   background-color: var(--first-color);
 }
 
+.skill-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.skill-container .skill-item {
+  flex-basis: calc(50% - 20px);
+}
+.skill-container .skill-item .skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
