@@ -123,6 +123,38 @@ nav ul .active-link::after {
   width: 380px;
 }
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+.about-container .introduce,
+.about-container .contents {
+  width: 50%;
+}
+.about-container .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 20px 70px;
+  width: 100%;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+}
+.about-container .card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--second-color);
+}
+.about-container .card div {
+  text-align: center;
+  font-size: 17px;
+  color: var(--text-color);
+}
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
@@ -130,6 +162,7 @@ nav ul .active-link::after {
   --text-color: rgb(68, 68, 68);
   --first-color: rgb(110, 87, 224);
   --first-color-hover: rgb(40, 91, 212);
+  --first-shadow-color: rgba(0, 0, 0, 0.1);
   --second-color: rgb(170, 142, 18);
   --third-color: rgb(40, 91, 212);
 }
