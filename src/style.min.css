@@ -268,6 +268,19 @@ nav ul .active-link::after {
   font-size: 18px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-block: 40px 60px;
+}
+footer .top-footer {
+  font-size: 25px;
+  font-weight: 600;
+}
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);

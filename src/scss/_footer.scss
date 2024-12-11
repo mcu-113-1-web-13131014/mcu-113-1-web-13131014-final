@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  padding-block: 40px 60px;
+
+  .top-footer {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
