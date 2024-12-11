@@ -280,6 +280,18 @@ footer .top-footer {
   font-size: 25px;
   font-weight: 600;
 }
+footer .footer-menu {
+  display: flex;
+}
+footer .footer-menu .menu-item {
+  list-style: none;
+}
+footer .footer-menu .menu-item a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-inline: 20px;
+}
 
 :root {
   --body-color: rgb(250, 250, 250);
