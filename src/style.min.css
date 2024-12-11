@@ -207,6 +207,37 @@ nav ul .active-link::after {
   background-color: var(--first-color);
 }
 
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+.contact-container .info,
+.contact-container .form {
+  width: 50%;
+}
+.contact-container .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  width: 100%;
+  height: 315px;
+  background-color: var(--third-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  gap: 10px;
+  box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+}
+.contact-container .contact-info > h2 {
+  margin-bottom: 20px;
+}
+.contact-container .contact-info i {
+  font-size: 18px;
+}
+
 :root {
   --body-color: rgb(250, 250, 250);
   --logo-color: rgb(218, 70, 102);
@@ -247,7 +278,6 @@ body .container {
 }
 .wrapper .section {
   padding-block: 6em;
-  min-height: 700px;
 }
 .wrapper .section .top-header {
   text-align: center;

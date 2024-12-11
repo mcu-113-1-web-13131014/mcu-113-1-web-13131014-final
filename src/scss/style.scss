@@ -3,6 +3,7 @@
 @import "./home";
 @import "./about";
 @import "./skill";
+@import "./contact";
 
 :root {
   --body-color: rgb(250, 250, 250);
@@ -48,7 +49,6 @@ body {
   }
   .section {
     padding-block: 6em;
-    min-height: 700px;
 
     .top-header {
       text-align: center;

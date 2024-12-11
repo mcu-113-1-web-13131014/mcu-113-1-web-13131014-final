@@ -1,0 +1,34 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+
+  .info,
+  .form {
+    width: 50%;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+    height: 315px;
+    background-color: var(--third-color);
+    color: var(--white-color);
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+
+    > h2 {
+      margin-bottom: 20px;
+    }
+
+    i {
+      font-size: 18px;
+    }
+  }
+}
