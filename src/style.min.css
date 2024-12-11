@@ -286,6 +286,10 @@ footer .footer-icons {
   display: flex;
   gap: 30px;
 }
+footer .bottom-footer {
+  font-size: 14px;
+  margin-top: 10px;
+}
 
 :root {
   --body-color: rgb(250, 250, 250);
