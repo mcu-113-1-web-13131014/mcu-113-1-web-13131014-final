@@ -7,9 +7,9 @@
   justify-content: center;
 
   .tag > span {
-    background-color: var(--logo-color);
+    background-color: var(--second-color);
     color: var(--white-color);
-    padding: 3px 6px;
+    padding: 5px 7px;
     font-size: 12px;
     border-radius: 5px;
   }
@@ -18,10 +18,11 @@
     font-size: 50px;
     font-weight: 600;
     color: var(--third-color);
+    margin-block: 25px;
   }
 
   .subtitle {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 30px;
     color: var(--text-color);
   }
@@ -55,11 +56,11 @@
 
   .image {
     width: 380px;
-    margin: 0 auto;
     overflow: hidden;
+    border-radius: 55% 45% 55% 45%;
 
     img {
-      width: 380px;
+      width: 480px;
     }
   }
 }
