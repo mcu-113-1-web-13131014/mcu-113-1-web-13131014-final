@@ -57,10 +57,11 @@
     }
 
     .btn {
+      position: relative;
       margin: 0 auto;
-      grid-column: 1 / 3;
       background-color: var(--third-color);
       color: var(--white-color);
+      left: -130px;
 
       i {
         font-size: 18px;
